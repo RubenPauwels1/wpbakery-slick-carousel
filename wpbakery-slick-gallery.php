@@ -13,29 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-/**
- * An example of how to write WPBakery WPBakery Page Builder custom shortcode
- *
- * To create shortcodes for WPBakery Page Builder you need to complete 2 steps.
- *
- * 1. Create new class which extends WPBakeryShortCode.
- * If you are not familiar with OOP in php, don't worry follow this instruction and we will guide you how to
- * create valid shortcode for WPBakery Page Builder without learning OOP.
- *
- * 2. Need to create configurations by using wpb_map function.
- *
- * Shortcode class.
- * Shortcode class extends WPBakeryShortCode abstract class.
- * Correct name for shortcode class should look like WPBakeryShortCode_YOUR_SHORTCODE_HERE.
- * YOUR_SHORTCODE_HERE must contain only latin letters, numbers and symbol "_".
- */
-
-/**
- * Shortcode class example "Hello World"
- *
- * Lets pretend that we want to create shortcode with this structure: [my_hello_world foo="bar"]Shortcode content
- * here[/my_hello_world]
- */
 class WPBakeryShortCode_VC_Slick_Gallery extends WPBakeryShortCode {
 
     function __construct( ) {
